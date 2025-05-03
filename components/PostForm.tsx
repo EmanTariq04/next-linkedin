@@ -11,7 +11,6 @@ function PostForm() {
     const fileInputRef = useRef<HTMLInputElement>(null);
     const { user } = useUser();
     const [preview, setPreview] = useState<string | null>(null);
-    const [first, setfirst] = useState(second)
 
     const handlePostAction = async (formData: FormData) => {
         const formDataCopy = formData;
